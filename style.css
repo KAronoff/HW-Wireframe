@@ -1,0 +1,57 @@
+body {
+  background-color: bisque;
+  text-align: center;
+}
+
+section {
+  background-color: blueviolet;
+  float: left;
+  width: 47%;
+  height: 300px;
+}
+article {
+  background-color: blue;
+  padding: 10px;
+}
+
+aside {
+  background-color: darkgray;
+  float: right;
+  width: 47%;
+  height: 300px;
+  
+}
+
+header, nav, footer {
+  padding: 10px;
+  background-color: chocolate;
+}
+header, nav, footer, #marco {
+  margin-bottom: 10px;
+}
+.label {
+
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#everything {
+  width: 75%;
+  margin: 0 auto;
+}
+#headings3 {
+  background-color: aquamarine;
+}
+
+#paragraph {
+  background-color: grey;
+}
+
+
+
+
+
